@@ -1,0 +1,165 @@
+@import url('https://fonts.googleapis.com/css2?family=Frank+Ruhl+Libre&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Frank+Ruhl+Libre&family=Rokkitt:wght@300&display=swap');
+
+body{
+    background-color:rgb(90, 120, 196);
+    
+
+}
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    
+
+}
+nav
+{
+    font-family: 'Rokkitt', serif;
+}
+nav ul{
+    display:flex;
+    align-items: center;
+    list-style-type: none;
+    height:65px;
+    background-color: black;
+    color: white;
+}
+nav ul li{
+    padding: 0 12px;
+}
+.brand img{
+    width:65px;
+    padding: 8px;
+}
+.brand{
+    display: flex;
+    align-items: center;
+    font-weight:bolder;
+    font-size: 1.3rem;
+}
+.container{
+    min-height: 75vh;
+    background-color:white;
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    display: flex;
+    margin:30px auto;
+    width: 70%;
+    height: 30px;
+    border-radius: 12px;
+    background-image: url('bg.jpg')  ;
+    background-size: 100%;
+}
+.bottom
+{
+    position: sticky;
+    height: 100px;
+    bottom: 0;
+    color:white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 7px;
+    
+}
+.icons{
+    margin-top: 14px;
+    color: black;
+}
+.icons i{
+    cursor: pointer;
+}
+
+
+#myProgressBar{
+    width: 100vw;
+     cursor: pointer;
+}
+.songItem{
+    height: 50px;
+    display: flex;
+    background-color:white;
+    
+    color: black;
+    margin: 12px 0;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+    flex-direction: row;
+    border-left: 0vh;
+}
+
+
+.timestamp{
+    margin:0 23px;
+    align-content: center;
+color: black;
+}
+.timestamp{
+    cursor: pointer;
+
+}
+.prev{background-color:black;
+    height: 30px;
+    width: 30px;
+    border-radius: 3px;
+    display: flex;
+    align-items: left;
+    justify-content: left;
+}
+
+
+.play,.pause{
+    background-color:black;
+    height: 30px;
+    width: 30px;
+    border-radius: 3px;
+    display: flex;
+    align-items:center;
+    justify-content: center;
+}
+.play-pause{
+    background-color:black;
+    height: 30px;
+    width: 30px;
+    border-radius: 3px;
+    display: flex;
+    align-items:center;
+    justify-content: center;
+
+}
+.pause{
+    display: none;
+}
+.next{background-color:black;
+    height: 30px;
+    width: 30px;
+    border-radius: 3px;
+    display: flex;
+    align-items:right;
+    justify-content: right;
+}
+
+
+.fa-solid{
+    color:white;
+    cursor: pointer;
+}
+.fa-solid:hover{
+    color: #333;
+}
+.icon{
+    height: 30px;
+    width: 200px;
+    border-radius: 3px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color:white;
+}
+
+.fa-solid ,.fa-play{
+    color: black;
+}
